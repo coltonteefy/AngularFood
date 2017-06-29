@@ -1,0 +1,105 @@
+body, html {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.header-container {
+  background-color: #6a3511;
+  margin: -18px -5px 1px -5px;
+  padding: 5px 0 1px 0;
+}
+
+ul {
+  list-style-type: none;
+  color: white;
+}
+
+li {
+  /*float: left;*/
+  margin-right: 12px;
+  color: white;
+}
+
+.logo {
+  width: 65px;
+  margin-left: 5px;
+}
+
+/*.navbar {*/
+  /*background-color: #351c15;*/
+/*}*/
+
+/*.navbar-light .navbar-nav .nav-link {*/
+  /*color: white;*/
+  /*font-size: 25px;*/
+  /*padding: 8px 25px 0px 12px;*/
+/*}*/
+
+/*.btn {*/
+  /*color: #ffb500;*/
+  /*background-color: transparent;*/
+/*}*/
+
+/*.btn:hover{*/
+  /*background-color: #ffb500;*/
+  /*color: white;*/
+/*}*/
+
+/*.navbar-toggler {*/
+  /*color: #ffb500;*/
+  /*background-color: #ffb500;*/
+/*}*/
+
+
+
+
+.text-muted {
+  background-color: #311616;
+  padding: 0;
+  margin: 0;
+  padding-bottom: 2px;
+}
+
+.navbar-toggler {
+  color: white;
+  border: transparent;
+  margin-left: 15px;
+  font-size: 22px;
+}
+
+.navbar-toggler:hover {
+  border: 1px solid white;
+}
+
+.navbar-toggler-icon {
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: middle;
+  content: "";
+  background: no-repeat center center;
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%;
+  color: #ffb500;
+}
+
+.navbar {
+  position: relative;
+  min-height: 50px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+}
+
+.collapse.show {
+  background-color: rgba(255, 181, 0, 0.36);
+  transition: 1ms;
+  height: 49%;
+}
+
+.nav {
+  position: relative;
+  width: 100%;
+  background-color: #f6f6f6;
+}
+
